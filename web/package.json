@@ -1,0 +1,39 @@
+{
+  "name": "daemon-shop-window",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run build && vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build && node scripts/export.mjs",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "tsx --test tests/*.test.ts",
+    "test:browser": "node tests/browser.mjs",
+    "verify": "node scripts/export.mjs --check",
+    "art": "tsx scripts/art.tsx",
+    "check:live": "tsx scripts/live-check.ts"
+  },
+  "dependencies": {
+    "@coinbase/wallet-sdk": "^4.4.0",
+    "@fontsource/dm-sans": "^5.3.0",
+    "@fontsource/fraunces": "^5.3.0",
+    "@tanstack/react-query": "^5.104.2",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "viem": "^2.57.5",
+    "wagmi": "^3.7.7"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "playwright": "^1.64.0",
+    "sharp": "^0.35.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  }
+}

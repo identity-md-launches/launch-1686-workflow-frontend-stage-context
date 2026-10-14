@@ -1,0 +1,24 @@
+
+> daemon-shop-window@1.0.0 test
+> tsx --test tests/*.test.ts
+
+✔ implementation ABI matches the handoff canonical Keccak hash (13.164708ms)
+✔ every exact mood boundary and the inside bands (1.154125ms)
+✔ price orientation follows the token position and decimals (0.205822ms)
+✔ UTC open uses last pre-midnight event, with intraday high and low (0.619719ms)
+✔ first ever swap uses Initialize as pre-swap price, even in the same block (0.290092ms)
+✔ no swaps today is Smug with 0%; pre-launch days remain unavailable (0.192045ms)
+✔ amount parsing prevents negative, exponent, excess precision, zero and uint128 overflow (0.885606ms)
+✔ buy and sell encode the exact pool, direction, output floor and Permit2 settlement (5.527106ms)
+✔ unknown wallet chain adds exact supplied settings then retries; rejection does not add (0.912136ms)
+✔ mobile deep links retain IPFS subpath and encode query/hash correctly (0.55687ms)
+✔ errors are translated without opaque selectors (0.882599ms)
+✔ history splits provider-limited ranges, retains visit cache and rereads the reorg tail (1.705365ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1669.998965

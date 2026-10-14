@@ -1,0 +1,116 @@
+{
+ "checks": [
+  {
+   "name": "render",
+   "passed": true,
+   "exitCode": 0,
+   "durationMs": 10510,
+   "output": "renders, no script errors or missing local files\nexternal hosts: ethereum-rpc.publicnode.com, eth.drpc.org"
+  },
+  {
+   "name": "layout",
+   "passed": true,
+   "exitCode": 0,
+   "durationMs": 0,
+   "output": "no horizontal scroll at 320, 390 or 1440\nno text box overlaps another\nno floating control covers text\nno text cut off by overflow: hidden"
+  },
+  {
+   "name": "targets",
+   "passed": true,
+   "exitCode": 0,
+   "durationMs": 0,
+   "output": "all 20 controls at least 24px or spaced at 390\n9 under the 44px comfortable size"
+  },
+  {
+   "name": "contrast",
+   "passed": true,
+   "exitCode": 0,
+   "durationMs": 1,
+   "output": "all measured text meets 4.5:1 (3:1 large)"
+  },
+  {
+   "name": "casing",
+   "passed": true,
+   "exitCode": 0,
+   "durationMs": 0,
+   "output": "no all-caps text in content"
+  },
+  {
+   "name": "tracking",
+   "passed": true,
+   "exitCode": 0,
+   "durationMs": 0,
+   "output": "letter-spacing natural in content (display type may run tight)"
+  },
+  {
+   "name": "eyebrows",
+   "passed": true,
+   "exitCode": 0,
+   "durationMs": 0,
+   "output": "no kicker labels above headings"
+  },
+  {
+   "name": "type-sizes",
+   "passed": true,
+   "exitCode": 0,
+   "durationMs": 2,
+   "output": "390: 4 sizes in use, 5 with one-offs (14px×74, 16px×7, 24px×7, 28px×5, 48px×1)\n1440: 4 sizes in use, 5 with one-offs (14px×69, 16px×14, 24px×7, 28px×6, 72px×1)\nbar: 6 sizes used more than once, 8 counting one-offs, per width"
+  },
+  {
+   "name": "type-faces",
+   "passed": true,
+   "exitCode": 0,
+   "durationMs": 0,
+   "output": "families (2): fraunces, dm sans\nweights (3): 400, 600, 700"
+  },
+  {
+   "name": "glyphs",
+   "passed": true,
+   "exitCode": 0,
+   "durationMs": 0,
+   "output": "no em dashes or emoji in text"
+  },
+  {
+   "name": "slogans",
+   "passed": true,
+   "exitCode": 0,
+   "durationMs": 0,
+   "output": "1 two-beat lines; a stack is four or more, so keep the best and cut the rest:\n\"He minds the counter. You mind the market.\" (#story-title)"
+  },
+  {
+   "name": "repetition",
+   "passed": true,
+   "exitCode": 0,
+   "durationMs": 1,
+   "output": "no repeated lines"
+  },
+  {
+   "name": "copy-budget",
+   "passed": true,
+   "exitCode": 0,
+   "durationMs": 0,
+   "output": "prose on the first screen: 31 words at 390 (bar 60), 37 at 1440 (bar 90)\nall words on the first screen: 67 at 390, 96 at 1440\nwhole page: 340 words, 151 of them prose"
+  },
+  {
+   "name": "chrome",
+   "passed": true,
+   "exitCode": 0,
+   "durationMs": 1,
+   "output": "border and shadow together: 0\ncards inside cards: 0\ngradient text: 0"
+  },
+  {
+   "name": "motion",
+   "passed": true,
+   "exitCode": 0,
+   "durationMs": 0,
+   "output": "transition: all on 0 elements\nendless animations: 0; still running with reduced motion: 0"
+  },
+  {
+   "name": "share",
+   "passed": true,
+   "exitCode": 0,
+   "durationMs": 0,
+   "output": "title \"Daemon · The pawn shop cat\", favicon, og:title, og:image, description"
+  }
+ ]
+}

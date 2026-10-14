@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-14T04:47:20.565887+00:00",
+  "sourceCommit": "f200e589cf5d53a52181945be58967533ef752d3",
+  "status": "passed",
+  "allowedChangedRoots": [
+    "web",
+    "dist",
+    "docs"
+  ],
+  "explicitDotfileAllowance": "web/.gitignore",
+  "newOrChangedFilesExcludingThisAudit": 79,
+  "candidateTreeFilesExcludingThisAudit": 125,
+  "candidateTreeBytesExcludingThisAudit": 4784763,
+  "gitBundleLimitBytes": 8388608,
+  "existingGitPackBytes": 103283,
+  "scopeViolations": [],
+  "modifiedOriginalFiles": [],
+  "dependencyOrCacheArtifacts": [],
+  "symlinksOrSubmodules": [],
+  "exportAssetCount": 15,
+  "exportBytesIncludingManifest": 1003349,
+  "largestExportFileBytes": 637441,
+  "manifestSha256": "343fde93481d602fc26fd1cd862aded81a08925ca35e2a485ec42fd109951008",
+  "note": "All deliverable files remain in the working tree. Git metadata is mounted read-only; no bypass was attempted. Uncompressed candidate file bytes and existing Git pack bytes are recorded separately, not as a measured final Git bundle.",
+  "gitStaging": {
+    "attemptedCommand": "git add web dist docs",
+    "exitCode": 128,
+    "error": "fatal: Unable to create '.git/index.lock': Read-only file system",
+    "commitCreated": false,
+    "finalGitBundleMeasured": false
+  }
+}

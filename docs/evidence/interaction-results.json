@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-14T04:33:55.059Z",
+  "mode": "Mock wallets and RPC; no broadcasts",
+  "exportPath": "/ipfs/daemon/",
+  "checks": [
+    {
+      "name": "static gateway subpath, runtime manifest, verified live-state fixtures and first-screen action",
+      "passed": true
+    },
+    {
+      "name": "320, 390, 768 and 1440 reflow, light and dark themes, local fonts, accessible default page",
+      "passed": true
+    },
+    {
+      "name": "EIP-6963 wallet names, keyboard dialog dismissal and focus return",
+      "passed": true
+    },
+    {
+      "name": "wallet rejection is recoverable; missing chain adds exact handoff settings and switches again",
+      "passed": true
+    },
+    {
+      "name": "amount, decimal precision and slippage validation; large values cannot overflow",
+      "passed": true
+    },
+    {
+      "name": "approval rejection releases pending state; exact IMD approval and confirmed Permit2 steps",
+      "passed": true
+    },
+    {
+      "name": "reverted simulation prevents the swap signature and explains slippage",
+      "passed": true
+    },
+    {
+      "name": "expired review cannot be submitted; current estimates do not silently alter its minimum",
+      "passed": true
+    },
+    {
+      "name": "reviewed buy sends exact v4 command/actions, preserved hook, 3% minimum and no ETH value",
+      "passed": true
+    },
+    {
+      "name": "sell changes spend token, requires independent approvals, and settles DAEMON to IMD",
+      "passed": true
+    },
+    {
+      "name": "watchAsset requests deployed token metadata",
+      "passed": true
+    },
+    {
+      "name": "all token writes: transfer, allowance/revoke and transferFrom are reviewed and simulated",
+      "passed": true
+    },
+    {
+      "name": "wrong-network change visibly gates trades and preserves one switch action in the flow",
+      "passed": true
+    },
+    {
+      "name": "reduced motion disables cross-fades and animations",
+      "passed": true
+    },
+    {
+      "name": "account changes dismiss an existing review and clear account-scoped balance state",
+      "passed": true
+    },
+    {
+      "name": "configured public RPC fallback recovers; missing code disables transactions",
+      "passed": true
+    },
+    {
+      "name": "mobile picker provides four open-in links and Coinbase Smart Wallet with no relay",
+      "passed": true
+    },
+    {
+      "name": "tampered implementation ABI fails closed before any wallet action",
+      "passed": true
+    },
+    {
+      "name": "WebKit mobile render, quote, direction change and wallet sheet",
+      "passed": true
+    }
+  ],
+  "transactionsSimulated": 9,
+  "rpcCalls": 443,
+  "limitations": []
+}

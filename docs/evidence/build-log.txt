@@ -1,0 +1,29 @@
+
+> daemon-shop-window@1.0.0 build
+> tsc --noEmit && vite build && node scripts/export.mjs
+
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 1798 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/index.html                                         1.23 kB │ gzip:   0.61 kB
+../dist/assets/dm-sans-latin-600-normal-Aqo67rzb.woff2    14.14 kB
+../dist/assets/dm-sans-latin-400-normal-CW0RaeGs.woff2    14.20 kB
+../dist/assets/fraunces-latin-700-normal-CEOla-zY.woff2   18.21 kB
+../dist/assets/index-ZEs1PCLP.css                         17.94 kB │ gzip:   4.60 kB
+../dist/assets/ccip-4XuWUqtc.js                            2.83 kB │ gzip:   1.31 kB
+../dist/assets/dist-CiglKr7O.js                           96.21 kB │ gzip:  31.07 kB
+../dist/assets/index-Dt0H2T3I.js                         637.44 kB │ gzip: 191.97 kB
+
+✓ built in 822ms
+{
+  "status": "passed",
+  "mode": "export",
+  "assets": 15,
+  "bytes": 999048,
+  "sourceCommit": "f200e589cf5d53a52181945be58967533ef752d3",
+  "abiHashes": [
+    "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee"
+  ]
+}

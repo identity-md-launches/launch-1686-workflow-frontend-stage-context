@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-10-14T04:27:43.503Z",
+  "mode": "Read-only public RPC; no transaction signatures or broadcasts",
+  "chainId": 1,
+  "sourceCommit": "f200e589cf5d53a52181945be58967533ef752d3",
+  "contractCode": [
+    {
+      "name": "LaunchToken",
+      "address": "0xbb989bcd2dba632d6acee89f5651a8f8c44c5fd0",
+      "bytes": 1709
+    }
+  ],
+  "poolId": "0xe8b8ee22f52711e620e389e154823e952b4251ccda3882629e0278a86d9260a2",
+  "poolKey": {
+    "fee": 12500,
+    "hooks": "0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
+    "currency0": "0xbb989bcd2dba632d6acee89f5651a8f8c44c5fd0",
+    "currency1": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "tickSpacing": 60
+  },
+  "name": "Daemon",
+  "symbol": "DAEMON",
+  "decimals": 18,
+  "totalSupply": "1000000000",
+  "priceInIMD": 0.0000025280043747966423,
+  "liquidity": "1395488085257384418720526",
+  "block": "26188344",
+  "days": [
+    {
+      "utc": 1791417600,
+      "mood": "Smug",
+      "swaps": 0,
+      "available": false
+    },
+    {
+      "utc": 1791504000,
+      "mood": "Smug",
+      "swaps": 0,
+      "available": false
+    },
+    {
+      "utc": 1791590400,
+      "mood": "Smug",
+      "swaps": 0,
+      "available": false
+    },
+    {
+      "utc": 1791676800,
+      "mood": "Smug",
+      "swaps": 0,
+      "available": false
+    },
+    {
+      "utc": 1791763200,
+      "mood": "Smug",
+      "swaps": 0,
+      "available": false
+    },
+    {
+      "utc": 1791849600,
+      "mood": "Smug",
+      "swaps": 0,
+      "available": false
+    },
+    {
+      "utc": 1791936000,
+      "mood": "Smug",
+      "swaps": 2,
+      "change": 1.1201749918656745,
+      "high": 1.1201749918656745,
+      "low": 0,
+      "available": true
+    }
+  ],
+  "quote": {
+    "input": "1 IMD",
+    "estimatedOutput": "390450.548689712572421868 DAEMON",
+    "gasEstimate": "37132",
+    "method": "eth_call / simulateContract(quoteExactInputSingle)"
+  },
+  "limitations": [
+    "No live wallet connection or signing",
+    "No live approvals, transfers or swaps",
+    "No ETH or USD conversion source in the handoff",
+    "Public RPC availability and rates may change"
+  ]
+}

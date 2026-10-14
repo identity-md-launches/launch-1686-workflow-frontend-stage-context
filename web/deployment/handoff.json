@@ -1,0 +1,43 @@
+{
+  "chainId": 1,
+  "poolKey": {
+    "fee": 12500,
+    "hooks": "0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
+    "currency0": "0xbb989bcd2dba632d6acee89f5651a8f8c44c5fd0",
+    "currency1": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "tickSpacing": 60
+  },
+  "repoUrl": "https://github.com/identity-md-launches/launch-1681-workflow-contract-stage-context",
+  "version": 1,
+  "launchId": "b2a30eba-3d60-4d5b-9b61-ba3ceeded988",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 12500,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7"
+    },
+    "notes": "Token-only launch of Daemon (DAEMON) on Ethereum mainnet. The only contract in the accepted tree is LaunchToken in src/LaunchToken.sol: a fixed-supply OpenZeppelin ERC-20 with 18 decimals, no constructor arguments, no owner, and no mint, pause, blocklist, fee or upgrade functions; its constructor mints the whole supply to the factory and makes no external calls. There are no application contracts, so the contracts list is empty; the factory supplies the LP, the MerkleDistributor and the initialization-only pool guard. The pool pairs with IMD, the launch's chosen pair token, at the launch policy's 1.25% fee with tick spacing 60; the deployer derives the effective opening price from the policy's opening market cap rather than from initialPrice, which is written as the launch terms give it. Supply, allocations and the creator's trade fee share are handled by the factory and the launch policy, not by any contract here. The website brief assumes an ETH pair with ETH as currency0; the accepted terms fix an IMD pair, so the frontend must use the exact pool key from the deployment handoff and resolve its price denomination from that pool. No initialization calls are needed.",
+    "token": {
+      "name": "Daemon",
+      "symbol": "DAEMON",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": []
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0x0beaa82c52aeab5df2226f4ffad0634d3a5453d2ff2777cc817ec0a4bedec996",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "address": "0xbb989bcd2dba632d6acee89f5651a8f8c44c5fd0",
+      "blockNumber": 26188160,
+      "creationCodeHash": "4b5884a7822b2034baf26c012788ff7a47c0aa8637fb9b1ece85f22abe043321"
+    }
+  ],
+  "sourceCommit": "f200e589cf5d53a52181945be58967533ef752d3",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "8a97b2efd49caf40d97acbbe89014714f55584afc5f293d0ac2d040baa584602"
+}

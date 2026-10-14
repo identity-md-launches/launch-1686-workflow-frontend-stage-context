@@ -1,0 +1,35 @@
+{
+  "theme": "dark",
+  "pairs": [
+    {
+      "name": "body",
+      "foreground": "#f4ebd7",
+      "background": "#101e19",
+      "ratio": 14.5
+    },
+    {
+      "name": "muted on surface",
+      "foreground": "#b4c3b7",
+      "background": "#192b23",
+      "ratio": 8.1
+    },
+    {
+      "name": "primary button",
+      "foreground": "#fff",
+      "background": "#2d4fbc",
+      "ratio": 7.1
+    },
+    {
+      "name": "focus on page",
+      "foreground": "#f6da6b",
+      "background": "#101e19",
+      "ratio": 12.41
+    },
+    {
+      "name": "focus on surface",
+      "foreground": "#f6da6b",
+      "background": "#192b23",
+      "ratio": 10.74
+    }
+  ]
+}
